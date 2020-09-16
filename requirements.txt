@@ -1,0 +1,47 @@
+Django==2.2
+django-extensions==3.0.5
+djangorestframework==3.11.1
+dj-database-url==0.5.0
+djangorestframework-jwt==1.11.0
+django-environ==0.4.5
+django-storages==1.10
+
+# Celery
+kombu==4.6.11
+celery==4.4.7
+django-celery-results==1.2.1
+django-celery-beat==2.0.0
+django-celerybeat-status==0.0.10
+
+# Deployment
+gunicorn==20.0.4
+
+# Azure cosmosdb
+azure-cosmos==4.1.0
+azure-storage-blob==2.1.0
+azure-storage-common==2.1.0
+
+# Postgresql
+psycopg2==2.8.5
+psycopg2-binary==2.8.6
+
+# Utils
+python-dateutil==2.8.1
+
+# Notebooks
+Cython==0.29.21  # this is required for pandas
+pandas==1.1.1
+contextily==1.0rc2
+matplotlib==3.1.0
+numpy==1.19.1
+pyproj==2.4.1
+requests==2.22.0
+scipy==1.5.1
+xmltodict==0.12.0
+python-Levenshtein==0.12.0
+
+# Error notifications
+rollbar==0.15.0
+
+# Test Azure
+unittest-xml-reporting==3.0.4
