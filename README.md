@@ -1,1 +1,1 @@
-# python-training-django
+# python-training-django"# MyPythonDjangpTrainning" 
